@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-admin-demo": {
+    "apartment-system-demo": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -92,18 +92,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-admin-demo:build"
+            "browserTarget": "apartment-system-demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-admin-demo:build:production"
+              "browserTarget": "apartment-system-demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-admin-demo:build"
+            "browserTarget": "apartment-system-demo:build"
           }
         },
         "test": {
@@ -169,7 +169,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "ngx-admin-demo:serve"
+            "devServerTarget": "apartment-system-demo:serve"
           }
         },
         "lint": {
@@ -184,14 +184,14 @@
       }
     }
   },
-  "defaultProject": "ngx-admin-demo",
+  "defaultProject": "apartment-system-demo",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "ngx",
+      "prefix": "apartment-system",
       "style": "scss"
     },
     "@schematics/angular:directive": {
-      "prefix": "ngx"
+      "prefix": "apartment-system"
     }
   }
 }
