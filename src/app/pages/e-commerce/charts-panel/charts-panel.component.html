@@ -2,20 +2,20 @@
   <nb-tabset fullWidth (changeTab)="changeTab($event)">
     <nb-tab tabTitle="Orders">
       <div class="chart-container">
-        <ngx-chart-panel-summary [summary]="chartPanelSummary"></ngx-chart-panel-summary>
-        <ngx-chart-panel-header [type]="period"
+        <apartment-system-chart-panel-summary [summary]="chartPanelSummary"></apartment-system-chart-panel-summary>
+        <apartment-system-chart-panel-header [type]="period"
                                 (periodChange)="setPeriodAndGetChartData($event)">
-        </ngx-chart-panel-header>
-        <ngx-orders-chart #ordersChart [ordersChartData]="ordersChartData"></ngx-orders-chart>
+        </apartment-system-chart-panel-header>
+        <apartment-system-orders-chart #ordersChart [ordersChartData]="ordersChartData"></apartment-system-orders-chart>
       </div>
     </nb-tab>
     <nb-tab tabTitle="Profit" [lazyLoad]="true">
       <div class="chart-container">
-        <ngx-chart-panel-summary [summary]="chartPanelSummary"></ngx-chart-panel-summary>
-        <ngx-chart-panel-header [type]="period"
+        <apartment-system-chart-panel-summary [summary]="chartPanelSummary"></apartment-system-chart-panel-summary>
+        <apartment-system-chart-panel-header [type]="period"
                                 (periodChange)="setPeriodAndGetChartData($event)">
-        </ngx-chart-panel-header>
-        <ngx-profit-chart #profitChart [profitChartData]="profitChartData"></ngx-profit-chart>
+        </apartment-system-chart-panel-header>
+        <apartment-system-profit-chart #profitChart [profitChartData]="profitChartData"></apartment-system-profit-chart>
       </div>
     </nb-tab>
   </nb-tabset>

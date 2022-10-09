@@ -1,13 +1,13 @@
 @import '../../../@theme/styles/themes';
 
 @include nb-install-component() {
-  ngx-echarts-pie,
-  ngx-echarts-bar,
-  ngx-echarts-line,
-  ngx-echarts-multiple-xaxis,
-  ngx-echarts-area-stack,
-  ngx-echarts-bar-animation,
-  ngx-echarts-radar {
+  apartment-system-echarts-pie,
+  apartment-system-echarts-bar,
+  apartment-system-echarts-line,
+  apartment-system-echarts-multiple-xaxis,
+  apartment-system-echarts-area-stack,
+  apartment-system-echarts-bar-animation,
+  apartment-system-echarts-radar {
     display: block;
     height: nb-theme(card-height-medium);
     width: 100%;

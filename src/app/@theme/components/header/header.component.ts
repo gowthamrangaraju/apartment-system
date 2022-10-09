@@ -7,7 +7,7 @@ import { map, takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 
 @Component({
-  selector: 'ngx-header',
+  selector: 'apartment-system-header',
   styleUrls: ['./header.component.scss'],
   templateUrl: './header.component.html',
 })

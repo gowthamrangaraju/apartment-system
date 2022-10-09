@@ -3,7 +3,7 @@ import { NbThemeService, NbMediaBreakpoint, NbMediaBreakpointsService } from '@n
 import { map } from 'rxjs/operators';
 
 @Component({
-  selector: 'ngx-rooms',
+  selector: 'apartment-system-rooms',
   styleUrls: ['./rooms.component.scss'],
   template: `
     <nb-card [size]="breakpoint.width >= breakpoints.sm ? 'giant' : ''">
@@ -12,8 +12,8 @@ import { map } from 'rxjs/operators';
                class="collapse"
                [hidden]="isCollapsed()">
       </nb-icon>
-      <ngx-room-selector [class.dark-background]="isDarkTheme" (select)="select($event)"></ngx-room-selector>
-      <ngx-player [collapsed]="isCollapsed() && breakpoint.width <= breakpoints.md"></ngx-player>
+      <apartment-system-room-selector [class.dark-background]="isDarkTheme" (select)="select($event)"></apartment-system-room-selector>
+      <apartment-system-player [collapsed]="isCollapsed() && breakpoint.width <= breakpoints.md"></apartment-system-player>
     </nb-card>
   `,
 })

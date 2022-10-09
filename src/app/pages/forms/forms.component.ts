@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-form-elements',
+  selector: 'apartment-system-form-elements',
   template: `
     <router-outlet></router-outlet>
   `,

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import * as L from 'leaflet';
 
 @Component({
-  selector: 'ngx-leaflet',
+  selector: 'apartment-system-leaflet',
   styleUrls: ['./leaflet.component.scss'],
   template: `
     <nb-card>

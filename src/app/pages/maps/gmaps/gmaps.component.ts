@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-gmaps',
+  selector: 'apartment-system-gmaps',
   styleUrls: ['./gmaps.component.scss'],
   templateUrl: './gmaps.component.html',
 })

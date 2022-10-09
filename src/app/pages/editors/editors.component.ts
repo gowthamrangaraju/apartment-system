@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-editors',
+  selector: 'apartment-system-editors',
   template: `
     <router-outlet></router-outlet>
   `,

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-two-columns-layout',
+  selector: 'apartment-system-two-columns-layout',
   styleUrls: ['./two-columns.layout.scss'],
   template: `
     <nb-layout windowMode>
       <nb-layout-header fixed>
-        <ngx-header></ngx-header>
+        <apartment-system-header></apartment-system-header>
       </nb-layout-header>
 
       <nb-sidebar class="menu-sidebar" tag="menu-sidebar" responsive>
@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
       </nb-layout-column>
 
       <nb-layout-footer fixed>
-        <ngx-footer></ngx-footer>
+        <apartment-system-footer></apartment-system-footer>
       </nb-layout-footer>
 
     </nb-layout>

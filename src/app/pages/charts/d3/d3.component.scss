@@ -1,12 +1,12 @@
 @import '../../../@theme/styles/themes';
 
 @include nb-install-component() {
-  ngx-d3-bar,
-  ngx-d3-pie,
-  ngx-d3-advanced-pie,
-  ngx-d3-area-stack,
-  ngx-d3-line,
-  ngx-d3-polar {
+  apartment-system-d3-bar,
+  apartment-system-d3-pie,
+  apartment-system-d3-advanced-pie,
+  apartment-system-d3-area-stack,
+  apartment-system-d3-line,
+  apartment-system-d3-polar {
     display: block;
     width: 100%;
     height: nb-theme(card-height-medium);

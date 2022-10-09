@@ -2,7 +2,7 @@ import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 
 @Component({
-  selector: 'ngx-d3-line',
+  selector: 'apartment-system-d3-line',
   template: `
     <ngx-charts-line-chart
       [scheme]="colorScheme"
